@@ -1,0 +1,19 @@
+.navContainer {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+}
+.homeLink,
+.moviesLink {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(46, 67, 202);
+}
+.selected {
+  color: red;
+}

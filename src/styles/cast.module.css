@@ -1,0 +1,30 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+.castItem {
+  list-style: none;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.castImg {
+  width: 300px;
+  height: 450px;
+}
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+}
+.role {
+  margin-top: 0;
+  font-size: 20px;
+}
