@@ -78,3 +78,45 @@ h4 {
 .link:hover {
   color: rgb(54, 161, 147);
 }
+@media (max-width: 600px) {
+  .mainInfoCont {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .detailsCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movieTitle {
+    font-size: 25px;
+  }
+  .infoCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .moviePoster {
+    width: 300px;
+  }
+  .btn {
+    width: 95%;
+  }
+  .movieTitle {
+    text-align: center;
+  }
+  .score {
+    font-size: 25px;
+  }
+  .addInfo {
+    font-size: 25px;
+  }
+  .link {
+    font-size: 30px;
+  }
+} ;
